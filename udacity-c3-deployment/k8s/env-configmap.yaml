@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-mscharf-dev
+  AWS_PROFILE: default
+  AWS_REGION: eu-central-1
+  JWT_SECRET: hasenhirn
+  POSTGRESS_DB: udagrammscharfdev
+  POSTGRESS_HOST: udagrammscharfdev.ci0oia1fshm4.eu-central-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
